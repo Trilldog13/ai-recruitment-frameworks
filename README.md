@@ -3,7 +3,7 @@ Reusable AI prompt frameworks designed to reduce admin, improve consistency, and
 
 # 🤖 AI Prompt Frameworks for Tech Recruitment  (for Gemini) ("Gems") 
 
-Over the past 1/2 years, I’ve saved a huge amount of time using AI in tech recruitment.  
+Over the past 1-2 years, I’ve saved a huge amount of time using AI in tech recruitment.  
 
 But I've also wasted time constantly rewriting prompts and tweaking outputs that weren’t consistent.  
 
