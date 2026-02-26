@@ -1,5 +1,5 @@
 # ai-recruitment-frameworks
-Reusable AI prompt frameworks designed to reduce admin, improve consistency, and support smarter tech hiring.
+Reusable AI prompt frameworks designed to reduce admin, improve consistency, and support smarter tech hiring. Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results. 
 
 # 🤖 AI Prompt Frameworks for Tech Recruitment  (for Gemini) ("Gems") 
 
