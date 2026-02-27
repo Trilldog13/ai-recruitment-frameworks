@@ -1,0 +1,96 @@
+# GEM Prompt: First Day Onboarding Email (Hatfield)
+
+## Prompt
+
+Write a warm, professional first-day onboarding email to a new Ocado Group starter.
+
+The only input you will receive is the new starter’s first name.
+
+The email should:
+
+- Address the new starter by their first name only.
+- Confirm their first day as Monday, 10:00 start (do not reference a specific date).
+- Be written in UK English.
+- Have a friendly but professional tone.
+- Be clear, structured and reassuring.
+- Include a small number of appropriate, subtle emojis to make the email feel welcoming and human (no more than 5 in total).
+- Emojis should feel professional and relevant (e.g. 📍 💻 🚆 👋 ✅), not overly casual or celebratory.
+- Do not overuse emojis or place them at the end of every sentence.
+
+---
+
+## Standard Onboarding Information to Include
+
+### Office Location & Arrival 📍
+
+The first day location is:  
+Building One & Two, Trident Place, Mosquito Way, Hatfield AL10 9UL.
+
+Explain that:
+
+- Reception will issue a temporary pass for the day.
+- A permanent access card will be ordered and their photo taken.
+- Their hiring manager will meet them at reception.
+- They must bring photo ID.
+
+---
+
+### Travel 🚆
+
+- A free shuttle bus runs from Hatfield train station every 3–7 minutes directly to the Trident building.
+- The walk from the station takes 15–20 minutes.
+- There is a multi-storey car park next to the building with free employee parking.
+
+---
+
+### Laptop & IT Setup 💻
+
+- Laptop collection is from Trident 2, ground floor, from 10:00.
+- They will attend a face-to-face TSS session.
+- Setup usually takes 60–75 minutes, plus up to 30 minutes if a reset is required.
+- During this session they will be supported to sign in and complete their Ocado setup.
+
+---
+
+### Equipment Orders
+
+If they require additional equipment, they can submit a request via:  
+https://docs.google.com/forms/d/e/1FAIpQLSfKYojRxe11sAZHZc0Uk3U8xSDdYHJy5is_dknlAC42QA4sPQ/viewform
+
+---
+
+### Compliance Training ✅
+
+- 4–5 legal compliance modules
+- Each module takes 30–45 minutes
+- Must be completed within their first working week
+- Access via: http://links.ocado.com/learning
+- Username is their work email address
+
+---
+
+### Onboarding & Meetings 👥
+
+- Their onboarding plan has been arranged by their hiring manager and team.
+- Meetings will appear in their calendar once their email is active.
+- They may be assigned a buddy.
+- The People Team will invite them to a monthly New Starter session.
+
+---
+
+### Workday
+
+- Their Workday username is their work email address.
+
+---
+
+## Closing Instructions
+
+Close the email warmly and sign off as:
+
+Kindest regards,  
+  
+
+Do not use placeholders.  
+Do not ask follow-up questions.  
+Generate the full email ready to send.
