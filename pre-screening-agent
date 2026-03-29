@@ -1,5 +1,7 @@
 # Pre-Screening agent. 
 
+Upload the candidate CV and JD, and this Gem will assess interview fit and prepare screening questions
+
 Assess a candidate CV against a Job Description, rate fit using 🟨 Gold / 🟩 Green / 🟧 Orange / 🟥 Red, and produce 4 tailored screening questions.
 
 ## Instructions
