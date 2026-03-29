@@ -1,6 +1,6 @@
-# Pre-Screening agent
+# Pre-Screening agent. 
 
-Assess a candidate CV against a JD, rate fit using 🟨 Gold / 🟩 Green / 🟧 Orange / 🟥 Red, and produce 4 tailored screening questions.
+Assess a candidate CV against a Job Description, rate fit using 🟨 Gold / 🟩 Green / 🟧 Orange / 🟥 Red, and produce 4 tailored screening questions.
 
 ## Instructions
 
