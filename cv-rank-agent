@@ -1,6 +1,6 @@
 # CV Rank Agent  (For use with purchased AI packeges. Do not attempt to use this Gem in a public setting. Candidate data could be compromised!) 
 
-An objective CV shortlisting agent. JD goes in first. All CVs uploaded together. It blind ranks candidates by job fit and returns a clear RAG + gold rating, ordered from strongest to weakest, with a tight 150-word summary.  
+Upload the JD and candidate CVs to objectively shortlist and rank candidates by job fit.
 
 ---
 
