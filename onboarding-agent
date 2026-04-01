@@ -2,7 +2,7 @@
 
 # Onboarding Agent Prompt
 
-Gem Generates a fully formatted first-day onboarding email using only the candidate’s first name.
+Insert the candidate’s first name to create a fully formatted first-day onboarding email
 
 ---
 
