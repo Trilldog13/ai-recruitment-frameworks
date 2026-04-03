@@ -30,7 +30,7 @@ They’re not perfect (and still evolving). ⚙️
 
 I’ll keep updating them in this repo.
 
-They’ve definitely reduced admin time, improved consistency across the team, and freed me up to focus on what actually matters — conversations, relationships, and hiring quality. 🤝
+They’ve defo reduced admin time, improved consistency across the team, and freed me up to focus on what actually matters — conversations, relationships, and hiring quality. 🤝
 
 ---
 
@@ -38,7 +38,7 @@ They’ve definitely reduced admin time, improved consistency across the team, a
 
 A breakdown of practical prompt frameworks designed to help you build a more consistent, efficient recruitment workflow.
 
-Each one is structured, reusable, and built for real-world recruiting scenarios — not theory.
+Each one is structured, reusable, and built for real-world every day recruiting
 
 ---
 
@@ -47,10 +47,12 @@ Each one is structured, reusable, and built for real-world recruiting scenarios 
 Feel free to use them, tweak them, and tailor them to your own style.
 
 These frameworks are designed to be flexible.  
+
 Adapt them to your hiring environment, your tone, and your market.
 
-If they save you time or improve quality — great.  
-If you improve them further — even better.
+If they save you time or improve quality, they've done their job!
+
+If you improve them further, even better.
 
 ---
 
@@ -60,7 +62,7 @@ Below is a visual overview of how these Gems connect into a structured, end-to-e
 
 Rather than standalone prompts, they’re designed as a **linked system** that supports the full hiring lifecycle — from intake to decision.
 
-![Workflow of Gems](./workflow-of-gems.png)
+![Workflow of Gems](./workflow-of-gems.png) (PDF not as reguarly updates as the Repo')
 
 It follows five clear stages:
 
@@ -91,8 +93,8 @@ Together, they create a repeatable, scalable workflow that:
 - Raises hiring quality  
 - Frees up time for conversations and relationship-building  
 
-If you can improve them — even better, drop me a follow, add me on LinkedIn, and let's have a conversation! 
+If you can improve them, drop me a follow, add me on LinkedIn, and let's have a conversation? 
 
-If you find these useful or want to swap ideas on AI in recruitment, feel free to reach out. 💬  
+If you find these useful or want to swap ideas on AI in recruitment, feel free to reach out, I'd be delighted to have a convo!  💬  
 
-Let’s build smarter, more consistent hiring workflows together.  
+Let’s build smarter, more consistent hiring workflows together #jobsworth   
