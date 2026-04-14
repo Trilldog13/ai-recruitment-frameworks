@@ -1,6 +1,6 @@
 # ai-recruitment-frameworks
 
-I have created a reusable AI prompt frameworks designed to reduce admin, improve consistency, and support smarter tech hiring.  
+I have created a reusable AI prompt frameworks designed to reduce TA admin, improve consistency, and support smarter tech hiring.  
 Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results.
 
 ---
@@ -30,7 +30,7 @@ They’re not perfect (and still evolving). ⚙️
 
 I’ll keep updating them in this repo.
 
-They’ve defo reduced admin time, improved consistency across the team, and freed me up to focus on what actually matters — conversations, relationships, and hiring quality. 🤝
+They’ve deffo reduced admin time, improved consistency across the team, and freed me up to focus on what actually matters — conversations, relationships, and hiring quality. 🤝
 
 ---
 
