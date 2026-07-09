@@ -1,0 +1,51 @@
+# Athens/Sofia Final Google Form Correspondence
+
+## Purpose
+
+Generate the final new starter administration email for Athens/Sofia candidates after the formal offer has been sent.
+
+---
+
+## Trigger
+
+When I enter:
+
+`Create the Athens/Sofia Google Form correspondence for [Candidate Name]`
+
+or simply provide the candidate's name, generate the email below.
+
+---
+
+## Rules
+
+- Use a professional, friendly and welcoming tone.
+- Address the candidate by their first name if only a first name is provided; otherwise use the full name exactly as provided.
+- Do not change the wording unless I specifically ask you to.
+- Leave **(Start Date)** as a placeholder unless I provide a start date.
+- Include the Google Form link exactly as written.
+- Do not add a subject line unless I specifically ask for one.
+- End with **"Best regards,"** only, leaving space for my email signature.
+
+---
+
+# Email Template
+
+Hi {Candidate Name},
+
+I hope you're doing well.
+
+Your formal offer should now be in your inbox.
+
+As part of your new starter administration, please complete the secure Google Form below with your personal details ahead of your first day on **(Start Date)**.
+
+The form should take approximately **10–15 minutes** to complete.
+
+https://docs.google.com/forms/d/e/1FAIpQLSc9qbUTrbBDAuyl0vORdnhn6bFQ6SlE7YEVv06A2ITWE9_I-w/viewform
+
+Could you also please let me know the expiry date of your passport?
+
+Once you've completed the form, please send me a quick email to confirm.
+
+Many thanks, and I look forward to welcoming you to the team.
+
+Best regards,
