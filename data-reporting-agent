@@ -1,0 +1,97 @@
+# Greenhouse Hiring Case Study Framework
+
+> ### 📋 User Information
+> This repository provides a standardised framework for analysing Greenhouse recruitment data and generating executive-ready presentations. 
+> 
+> **How to use this template:**
+> 1. **Fork or Clone** this repository to your local environment.
+> 2. Populate the `references/` files with your specific project constraints.
+> 3. Drop your raw Greenhouse export into the workspace and follow the **Workflow** sequence below.
+
+  "Insert Greenhouse XLS data for a req overview in a presentation format"
+
+---
+
+## Workflow
+
+1. **Data Inspection:** Read the uploaded Greenhouse spreadsheet using the spreadsheet skill and inspect its columns before calculating anything.
+2. **Intake Questionnaire:** Ask the user the intake questions found in `references/intake-questionnaire.md`. Only ask questions that have not already been answered by the spreadsheet or the ongoing conversation.
+3. **Data Mapping:** Map the Greenhouse columns and user answers into the normalised schema defined in `references/data-schema.md`.
+4. **Data Caveats:** Distinguish exact metrics from reconstructed estimates. Never present final-stage counts as true stage-history conversion rates without a caveat.
+5. **Metric Calculation:** Save the normalised inputs as a JSON file and run `scripts/calculate_metrics.py` to calculate and validate the report metrics.
+6. **Validation Summary:** Show the user a concise validation summary before generating slides. Highlight missing fields, conflicting totals, impossible dates, or explicit assumptions.
+7. **Asset Generation:** After approval, create an editable PowerPoint presentation and export a matching PDF using the respective slides and PDF skills.
+8. **Visual Standards:** Use `assets/reference-case-study.pdf` as the visual and structural benchmark. Match its clean landscape layout, white background, navy headings, blue/green charts, compact cards, and Ocado-style executive presentation tone. Do not copy personal or requisition-specific content from the reference.
+9. **Delivery:** Deliver both the PowerPoint and PDF files, accompanied by a short assumptions note.
+
+---
+
+## Default Slide Order
+
+Create only slides supported by available data. **Omit unsupported slides rather than inventing values.**
+
+*   **Cover:** Role family, case-study month/year, total requisition time, and author.
+*   **The Aim:** Target roles and planned headcount.
+*   **Hires by Level:** Target versus actual hires.
+*   **Recruitment Timeline Funnel:** From approval through to hiring completion.
+*   **Recruiting Funnel and Conversion Rates**
+*   **Total Candidate Pipeline by Source**
+*   **Hires by Source**
+*   **LinkedIn Sourcing:** Outreach, responses, hires, and optional demographic split.
+*   **Time to Offer**
+*   **Investment in Interviewing**
+*   **Reflections and Learnings**
+*   **Thank You**
+
+---
+
+## Metric Rules
+
+*   **Percentages:** Calculate percentages from counts and retain one decimal place unless a source provides a more precise demographic percentage.
+*   **Funnel Reconstructions:** For reconstructed funnel counts, calculate stage reach as all candidates whose final stage is that stage or a later stage. Label the result: *"Estimated stage progression based on final-stage data."*
+*   **Pass-Through Rates:** For exact pass-through rates, require full candidate stage-history data.
+*   **Requisition Duration:** Calculate requisition duration consistently using the user's preferred inclusive or elapsed-day convention. Record the chosen convention in the assumptions.
+*   **Time to Offer (TTO):** Calculate TTO using the start and end events confirmed by the user. Do not assume whether the endpoint is offer created, offer accepted, or another event.
+*   **Interviewer Cost:** Calculate hourly interviewer cost as:
+    $$\text{Hourly Cost} = \frac{\text{Annual Salary}}{\text{Annual Working Hours}}$$
+    Default annual working hours to weekly hours multiplied by 52 unless the user supplies another convention.
+*   **Interview Cost by Stage:** Calculate using the following formula:
+    $$\text{Stage Cost} = \text{Candidates Completed} \times \text{Interview Duration (Hours)} \times \text{Number of Interviewers} \times \text{Hourly Interviewer Cost}$$
+*   **Cost Per Hire (CPH):** 
+    $$\text{Cost Per Hire} = \frac{\text{Total Interview Cost}}{\text{Total Hires}}$$
+*   **Data Privacy:** Keep personal candidate names only when the user explicitly requests them in the presentation.
+
+---
+
+## Quality Checks
+
+Before creating the presentation deck, verify the following:
+
+*   [ ] Total source counts equal total candidates.
+*   [ ] Total hires by source and level equal total hires.
+*   [ ] Funnel counts never increase at a later stage.
+*   [ ] Each conversion rate uses the correct denominator.
+*   [ ] Timeline milestones fall between requisition open and close dates.
+*   [ ] TTO values reconcile accurately with the dates when dates are available.
+*   [ ] Interview duration units and interviewer counts are explicitly stated.
+*   [ ] All slide labels use the user's terminology for stages and levels.
+*   [ ] The PowerPoint file is fully editable and the PDF visually matches it.
+
+---
+
+## Writing Style
+
+*   **Language:** Use British English.
+*   **Tone:** Polish user notes into professional, candid, and constructive language without changing the underlying meaning. Prefer short headlines and compact supporting text.
+*   **Transparency:** State limitations clearly, especially when metrics are estimates.
+*   **Demographics:** Avoid presenting inferred gender as fact. Use only supplied, lawful, aggregate demographic data.
+
+---
+
+## Bundled Resources
+
+*   `references/intake-questionnaire.md`: Questions to ask before beginning the analysis.
+*   `references/data-schema.md`: Normalised input structure and mapping guidance.
+*   `references/slide-specification.md`: Slide-by-slide content and visual rules.
+*   `scripts/calculate_metrics.py`: Deterministic calculations and validation scripts.
+*   `assets/reference-case-study.pdf`: Approved visual reference deck.
