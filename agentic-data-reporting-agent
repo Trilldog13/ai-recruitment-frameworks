@@ -1,1 +1,381 @@
+# 📊 Greenhouse Recruitment Case Study Presentation Generator
 
+> TA-ready AI workflow for analysing Greenhouse recruitment data and automatically producing a 12-slide 'image' hiring case study presentation for Ocado Group. Insert XLS data from ATS Req.
+
+---
+
+## 🚀 Overview
+
+This prompt transforms Greenhouse recruitment data into a polished executive presentation.
+
+It performs:
+
+- 📥 Data intake & validation
+- 📈 Recruitment funnel analysis
+- 📊 Hiring metrics calculation
+- 💷 Interview cost modelling
+- 📅 Timeline analysis
+- 🎯 Recruitment performance reporting
+- 🖥️ Automatic generation of a structured 12-slide presentation
+
+Designed for recruitment teams, Talent Intelligence, HR Analytics and executive stakeholders.
+
+---
+
+# 🇬🇧 Language & Style
+
+Always use:
+
+- British English
+- Executive presentation tone
+- Concise business language
+- Honest commentary around data quality
+- Clear assumptions where estimates are required
+
+---
+
+# 🎨 Design Style
+
+Inspired by the Ocado visual identity.
+
+### Colour Palette
+
+| Colour | Hex |
+|---------|------|
+| Deep Navy | #0a192f |
+| Electric Blue | #0052cc |
+| Mint Green | #10b981 |
+| Accent Purple | #7c3aed |
+
+Design principles:
+
+- Clean layouts
+- Minimal text
+- Strong hierarchy
+- Executive-ready visuals
+- Honest analytical commentary
+
+---
+
+# ⚙️ Workflow
+
+## Step 1 — Data Intake & Validation 📥
+
+Inspect uploaded Greenhouse spreadsheets or manually supplied hiring data.
+
+Validate:
+
+- Primary Job Role
+- Project Title
+- Specialisms / Tags
+- Case Study Month
+- Lead Recruiter
+- Target Headcount
+- Actual Hires
+- Interview Stages
+- Interview Duration
+- Interview Panel Size
+- Annual Salary Assumption
+
+Before producing any output, provide a concise validation summary highlighting:
+
+- Missing information
+- Conflicting totals
+- Impossible dates
+- Duplicate records
+- Assumptions made
+
+---
+
+## Step 2 — Recruitment Metrics 📈
+
+Calculate:
+
+- Time to Hire
+- Time to Offer
+- Funnel Conversion
+- Stage Drop-Off
+- Source Performance
+- Hiring Velocity
+- Funnel Bottlenecks
+- Offer Acceptance
+- Interview Hours
+- Cost Per Hire
+
+### Funnel Reconstruction
+
+When only final-stage data exists:
+
+Estimate historical progression using:
+
+> All candidates whose final stage is that stage or later.
+
+Clearly label these metrics:
+
+> *Estimated stage progression based on final-stage data.*
+
+---
+
+## 💷 Financial Model
+
+Default assumptions:
+
+Annual Salary:
+
+£70,000
+
+Working Week:
+
+40 Hours
+
+Hourly Cost
+
+Annual Salary ÷ (40 × 52)
+
+Interview Cost
+
+Candidates × Interview Duration × Interviewers × Hourly Rate
+
+Cost Per Hire
+
+Total Interview Cost ÷ Total Hires
+
+---
+
+# 📑 Presentation Structure
+
+Generate a complete executive presentation consisting of **12 slides**.
+
+---
+
+## Slide 1
+
+### Title
+
+Case Study Cover
+
+Content
+
+- Role
+- Project
+- Tags
+- Month
+- Total Req Time
+- Recruiter
+
+---
+
+## Slide 2
+
+### Cover Info & Aim
+
+Include
+
+- Target Roles
+- Planned Headcount
+- Actual Hires
+- Project Objectives
+
+---
+
+## Slide 3
+
+### Hiring Breakdown
+
+Include
+
+- Levels
+- Compensation
+- Hiring Mix
+- Challenges
+
+---
+
+## Slide 4
+
+### Timeline & Funnel
+
+Include
+
+- Time to Hire
+- Stage Durations
+- Velocity
+- Bottlenecks
+
+---
+
+## Slide 5
+
+### Conversion Rates
+
+Include
+
+- Top Funnel
+- Screen Conversion
+- Interview Conversion
+- Offer Acceptance
+
+Label estimated values where applicable.
+
+---
+
+## Slide 6
+
+### Candidate Sources
+
+Analyse
+
+- Inbound
+- Referral
+- Agency
+- Direct Sourcing
+
+Highlight highest-performing source.
+
+---
+
+## Slide 7
+
+### Sourcing Deep Dive
+
+Analyse
+
+- Outreach
+- Response Rates
+- Source Quality
+- Optimisation Opportunities
+
+---
+
+## Slide 8
+
+### Time to Offer
+
+Include
+
+- Average Time
+- Stage Velocity
+- Approval Delays
+- Candidate Experience
+
+---
+
+## Slide 9
+
+### Interview Investment
+
+Calculate
+
+- Total Interview Hours
+- Interview Hours by Stage
+- Business Time Consumed
+
+---
+
+## Slide 10
+
+### Cost Analysis
+
+Calculate
+
+- Total Interview Cost
+- Cost Per Hire
+- Assumptions Used
+
+Clearly explain methodology.
+
+---
+
+## Slide 11
+
+### Reflections
+
+Summarise
+
+- Successes
+- Challenges
+- Lessons Learned
+- Recommendations
+
+---
+
+## Slide 12
+
+### Closing Slide
+
+Include
+
+- Thank You
+- Month
+- Total Req Time
+- Recruiter
+- Q&A
+
+---
+
+# 📌 Data Transparency
+
+Always distinguish between:
+
+✅ Exact metrics
+
+and
+
+⚠️ Reconstructed estimates
+
+Never present estimated metrics as factual values.
+
+Document assumptions wherever calculations rely on inferred data.
+
+---
+
+# 📂 Expected Input
+
+Accepted sources include:
+
+- Greenhouse XLSX exports
+- CSV exports
+- Manual recruitment tables
+- Candidate pipeline summaries
+
+---
+
+# 📤 Expected Output
+
+The workflow produces:
+
+- ✅ Validation summary
+- ✅ Recruitment metrics
+- ✅ Funnel analysis
+- ✅ Cost analysis
+- ✅ Hiring insights
+- ✅ Executive commentary
+- ✅ Fully structured 12-slide presentation
+
+---
+
+# 💡 Best Used For
+
+- Executive Hiring Reviews
+- Recruitment Retrospectives
+- Quarterly Talent Reviews
+- Leadership Updates
+- Talent Intelligence
+- Hiring Case Studies
+- Process Improvement Workshops
+
+---
+
+# ⚠️ Notes
+
+This repository contains prompt instructions only.
+
+No code is included.
+
+No integrations with Greenhouse, PowerPoint, or APIs are provided.
+
+All outputs depend on the quality and completeness of the supplied recruitment data.
+
+---
+
+Made with ☕, 📊 and a healthy appreciation for recruitment analytics.
