@@ -1,0 +1,47 @@
+# Gem AI Agents → Claude Projects — Setup Pack
+
+This pack turns each of your 27 Gemini 'Gem' agents into an individual Claude Project.
+
+## How to set each one up - 
+Request the pack from Jonathan Trillwood via LinkedIn 
+
+1. In Claude.ai, go to the left sidebar → **Projects** → **+ New Project**.
+2. Name the project using the suggested name in each file below.
+3. Paste the **Description** into the project description field.
+4. Open the project → **Custom Instructions / Project Knowledge** → paste the **Custom Instructions** block.
+5. Save. Start a new chat inside that project and it will behave like the Gem did.
+
+## Agents included
+
+01. Pre Screening Agent — Upload the candidate CV and JD, and this Gem will assess interview fit and prepare screening questions
+02. Pre Hiring Manager Briefing Agent — Prior to your hiring manger brief, upload the JD for step by step support on conducting a hiring manager brief
+03. Post Hiring Manager Briefing Agent — Paste your intake notes and upload the JD to generate a structured hiring brief, JD alignment analysis, and ready-to-use 3-stage interview scorecards.
+04. Interview Feedback Agent — Upload interview feedback to generate a clear pass-through or rejection email
+05. Recruiter Screening Agent — Copy and paste your recruiter notes to form a structured screening document for the hiring team
+06. MarketMap Agent — Upload the JD for a structured market-mapping and sourcing agent. It generates target company maps, persona breakdowns and Boolean search strings
+07. Reach-Out Generator Agent — Upload the JD to generate a LinkedIn outreach message in Jonathan's tone, with follow up
+08. CV Rank Agent — Upload the JD and candidate CVs to objectively shortlist and rank candidates by job fit
+09. GitHub Agent — Upload the JD to create a structured interview framework with compliant documentation and GitHub-ready output
+10. LinkedIn Post Generator Agent — Upload the JD, get a sharp LinkedIn post back, in Jonathan's tone
+11. Alternative Job Title Agent — Upload the JD to generate alternative job titles and a ready-to-use Boolean string
+12. Onboarding Agent — Insert the candidate's first name to create a fully formatted first-day onboarding email
+13. Talent Instability Agent — Upload the JD to generate a list of companies that may be at risk or experiencing instability
+14. Recruitment Performance Analysis Agent — Upload the Greenhouse XLS data to obtain a full requisition summary with strategic recommendations
+15. Athens Job Post Agent — Upload the Ocado Athens based Job Spec - Create a job post instantly
+16. UK Job Post Agent — Upload the UK based Job Spec - Create a job post instantly
+17. Sofia Job Post Agent — Upload the Sofia based Job Spec - Create a job post instantly
+18. Monthly Gross to Annual Gross Agent — Athens and Sofia salary converter. Insert monthly gross salary which converts to annual gross
+19. Monthly Net to Annual Gross Agent — Athens and Sofia salary converter. Insert monthly net salary which converts to annual gross
+20. TA Operations Analyst Agent — Insert the monthly XLS data from Greenhouse to gain insights into recruiter performance
+21. Quality of Hire Agent — Insert "30, 90 or 365 Days" to send out the survey email
+22. Final Interview Support Agent — Upload the JD and Scorecard PDF to create a final-stage hiring manager prep pack mapped to Ocado Values
+23. UK Offer Letter Agent — Insert candidate's name to create a UK offer email
+24. Athens Offer Letter Agent — Insert candidate's name to create an Athens offer email
+25. Athens/Sofia Final 'GoogleForm' Correspondence Agent — Insert candidate name for final GoogleForm correspondence
+26. Agentic Data Reporting Agent (WIP) — Insert Greenhouse XLS data for a req overview in a presentation format
+27. Laymans Agent — Insert the JD for a Layman's breakdown of the job
+
+## Notes
+- These have been lightly cleaned up for Claude (removed Gemini-style bold-everything formatting) but the substance of every rule, template, and instruction is unchanged.
+- A few agents reference uploading a CV/JD/CSV each time — with Claude Projects, you can instead add reusable reference files (e.g. a blank Greenhouse template, your Ocado benefits doc) to the Project's knowledge base so you don't have to re-upload them every chat.
+- Agents that expect an Excel/CSV file (Recruitment Performance Analysis, TA Operations Analyst, Agentic Data Reporting) will work well in Claude since Claude can read and analyse spreadsheets directly in chat.
