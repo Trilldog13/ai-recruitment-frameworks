@@ -1,7 +1,7 @@
 # ai-recruitment-frameworks
 
-I have created a reusable AI prompt frameworks designed to reduce TA admin, improve consistency, and support smarter tech hiring.  
-Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results.
+I have created reusable AI prompt frameworks designed to reduce TA admin, improve consistency, and support smarter tech hiring.  
+Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results. I have started using Claude Code more frequently, and upload projects and artifacts in here too. 
 
 ---
 
