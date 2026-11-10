@@ -1,0 +1,25 @@
+I've been playing around more with Structured Prompting lately, focusing on Markdowns. 
+
+Investing the time, thinking about the prompt and structuring it in a 'Markdown' format - rather than being so conversational focused (via GPT/Gemini), saves tokens, energy + forces you to learn! 
+
+Use this guide going forward to support you.
+
+The task spec (This is for hyper detail for reusable prompting) 
+● Goal. The result you need, and why
+● Audience. Who uses the output and what they do next
+● Context. Additional background information needed every run
+● Inputs. The materials to work from
+● Process. Steps to follow, when order or a check matters
+● Output. Format, length, sections and tone
+● Examples. A few relevant, varied, high quality samples 
+● Constraints. Rules to follow, including what to do when information is missing.
+● Success criteria. How to judge the results before anyone uses it
+
+If you are in a little more of a hurry to get something produced, use this task spec as a minimum
+● Goal. The result you need, and why
+● Inputs. The materials to work from
+● Output. Format, length, sections and tone
+
+Give it a try! 
+
+
