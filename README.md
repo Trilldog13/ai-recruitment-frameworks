@@ -1,7 +1,7 @@
 # ai-recruitment-frameworks
 
 I have created reusable AI prompt frameworks designed to reduce TA admin, improve consistency, and support smarter tech hiring.  
-Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results. I have started using Claude Code more frequently, and upload projects and artifacts in here too. 
+Just copy and paste the prompts into Gemini "Gems", or create a GPT for instant results. I have started using Claude Code more frequently, and upload projects and artifacts in here too. I am updating and changing prompts reguarly, so keep an eye on changes which are produced! 
 
 ---
 
@@ -24,7 +24,8 @@ These frameworks help with:
 - 🎯 Screening candidates more objectively  
 - 🗂 Structuring interview feedback  
 - 🧠 Mapping talent markets  
-- 📊 Creating more consistent, high-quality shortlists  
+- 📊 Creating more consistent, high-quality shortlists
+- + MORE
 
 They’re not perfect (and still evolving). ⚙️  
 
